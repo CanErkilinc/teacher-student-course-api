@@ -1,23 +1,23 @@
-# Teacher-Student Course Frontend
+# Teacher-Student Course Backend
 
-Bu proje, öğretmen ve öğrenciler için basit bir kurs takip sistemidir. Kullanıcılar arasında öğretmen ve öğrenci rolleri bulunur. Sistem üzerinden öğretmen ve öğrenci ekleme, silme işlemleri yapılabilir. Ayrıca öğretmenlere ders atama ve ders silme işlemleri de desteklenmektedir.
+Bu proje, öğretmen ve öğrenci yönetimi yapılabilen basit bir kurs takip sisteminin backend kısmını oluşturuyor. Java ve Spring Boot kullanarak REST API geliştirdim. Sistemin amacı, öğretmen ve öğrencileri ekleyip silebilmek, dersleri tanımlayıp öğretmenlerle ilişkilendirebilmek.
 
-## Proje Hakkında
+## Özellikler
 
-Sistem temel olarak şu özellikleri sağlar:
-
-- Öğretmen ekleme ve silme
-- Öğrenci ekleme ve silme
-- Tüm kullanıcıları listeleme (rolleriyle birlikte)
+- Öğretmen ekleme, silme, güncelleme
+- Öğrenci ekleme, silme, güncelleme
 - Ders oluşturma ve silme
-- Her derse bir öğretmen atama
-- Derslerin ve hangi öğretmenin hangi derse girdiğinin listelenmesi
+- Öğretmenlerin hangi derslere gireceğini atama
+- Öğretmen ve öğrenci listesinin ayrı ayrı alınabilmesi
+- Bir öğretmenin hangi dersleri verdiğinin listelenebilmesi
 
-Uygulama kullanıcı dostu bir arayüze sahiptir. React ve React-Bootstrap kullanılarak geliştirildi. Tüm işlemler kullanıcı arayüzünden yönetilebilir.
+Kısacası, bir kurs merkezinin veya okulun en temel öğretmen-öğrenci-ders ilişki yönetimini sağlamayı hedefliyor. Sistemde öğretmen ve öğrenci kayıtları ayrı ayrı tutuluyor. Ders kayıtları oluşturulabiliyor ve her derse bir öğretmen atanabiliyor. Öğretmen veya ders silindiğinde ilişkiler de güncelleniyor.
 
-## Kullanılan Teknolojiler
+## Teknolojiler
 
-- React
-- JavaScript
-- React-Bootstrap
-- HTML5 / CSS3
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- MySQL
+- Maven
